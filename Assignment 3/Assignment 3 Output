@@ -1,0 +1,86 @@
+
+TITLE                               PRICE       YEAR
+------------------------------ ---------- ----------
+Postceptance                        19.99       2022
+Acceptance                          17.99       2020
+
+
+NAME                                    
+----------------------------------------
+CD City Musicophiles of PA
+CD Corporate Headquarters
+CDs R Us
+Capital CD City!
+Free CDs For The People
+Island CD Shop
+Oregon CDs
+Upstate CDs
+We Are CDs CDs CDs
+
+9 rows selected. 
+
+
+ARTIST                         AVG(PRICE)
+------------------------------ ----------
+Lee Robinson                        12.99
+Alicia Steen                        15.99
+Donny White                         17.49
+Joe Van                             19.99
+
+
+      YEAR COUNT(CID)
+---------- ----------
+      2022          1
+      2020          1
+      2019          1
+      2018          2
+      2016          3
+      2015          3
+
+6 rows selected. 
+
+
+CDID   SUM(QUANTITY)
+------ -------------
+C01116             8
+C01357             3
+C09811             4
+C10409            10
+C10410             8
+C10411             8
+C12345             5
+C26231             6
+C77869             3
+
+9 rows selected. 
+
+
+NAME                                     CITY                
+---------------------------------------- --------------------
+CD Corporate Headquarters                Irvine              
+CDs R Us                                 Albany              
+Capital CD City!                         Springfield         
+
+
+NAME                                    
+----------------------------------------
+CD Corporate Headquarters
+Capital CD City!
+Free CDs For The People
+Three Rivers Listeners
+
+
+NAME                                     COUNT(CDORDER.ORDERID)
+---------------------------------------- ----------------------
+Upstate CDs                                                   1
+Oregon CDs                                                    1
+Capital CD City!                                              2
+Island CD Shop                                                2
+CD City Musicophiles of PA                                    2
+Free CDs For The People                                       3
+CDs R Us                                                      3
+Three Rivers Listeners                                        5
+CD Corporate Headquarters                                     5
+
+9 rows selected. 
+
